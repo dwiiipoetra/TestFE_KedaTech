@@ -1,0 +1,10 @@
+-Framework yang dipakai dalam pengerjaan task ini adalah menggunakan Bootstrap dan juga menggunakan Font Awesome.
+karena saya lebih familiar dengan style yang dimiliki Bootstrap dan juga lebih cepat untuk mengcustomize style desainnya.
+Mungkin untuk project yang lebih singkat dapat menggunakan framework CSS yang lebih ringan seperti Bulma, Semantic UI, dll.
+
+-Kemudian untuk web responsive, saya memanfaatkan style bawaan dari Bootstrap dan juga saya customize lagi menggunakan
+CSS Media Query.
+
+-Untuk pengambilan file SVG saya menggunakan bantuain module SVGR karena saya menggunakan Vite sebagai bundlenya.
+
+-Untuk menampilkan modal login saya menggunakan react-bootstrap
