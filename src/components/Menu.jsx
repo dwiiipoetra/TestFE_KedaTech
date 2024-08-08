@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Login from "./Login";
+import Login from "./login";
+import ListMenu from "./listMenu";
 import { MDBModal, MDBModalDialog } from "mdb-react-ui-kit";
 
 const Menu = () => {
@@ -27,35 +28,8 @@ const Menu = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" href="#intro">
-                  Home
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#about"
-                >
-                  Tentang Kami
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="#pricing">
-                  Layanan
-                </a>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link" href="#contact">
-                  Hubungi Kami
-                </a>
-              </li>
-            </ul>
+            <ListMenu />
+            
             <div className="d-flex flex-column sim">
               <button className="myBtn" onClick={toggleShow}>
                 <i className="fa fa-lg fa-sign-in" aria-hidden="true"></i>

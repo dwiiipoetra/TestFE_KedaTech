@@ -1,4 +1,5 @@
 import React from "react";
+import ColumnMenu from "./columnMenu";
 
 const Footer = () => {
   return (
@@ -100,20 +101,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6 footer-links">
               <h4>Menu</h4>
-              <ul>
-                <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                  <a href="#intro">Home</a>
-                </li>
-                <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                  <a href="#about">Tentang Kami</a>
-                </li>
-                <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                  <a href="#pricing">Layanan</a>
-                </li>
-              </ul>
+              <ColumnMenu />
             </div>
             <div className="col-lg-3 col-md-6 footer-links">
               <h4>Layanan</h4>
