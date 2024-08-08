@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../shared/Button'
 
 const PricingBox = ({datas}) => {
   return (
@@ -26,12 +27,8 @@ const PricingBox = ({datas}) => {
                 </li>
                 ))}
             </ul>
-            <a
-                href="#"
-                className="btn btn-info btn-block p-2 shadow rounded-pill"
-            >
-                Berlangganan
-            </a>
+            
+            <Button title="Berlangganan" style="myBtn4"/>
             </div>
         </div>
         ))}

@@ -24,24 +24,8 @@ function App() {
                   Otomatisasi dan efektifkan proses operasional perusahaan
                   menggunakan software ERP terbaik.
                 </h4>
-                {/* <a
-                  className="myBtn-2 m-2"
-                  href="#"
-                  role="button"
-                  rel="nofollow"
-                >
-                  SELENGKAPNYA
-                </a> */}
-                {/* <a
-                  className="myBtn-3 m-2"
-                  href="#"
-                  role="button"
-                  rel="nofollow"
-                >
-                  TENTANG KAMI
-                </a> */}
-                <Button title="SELENGKAPNYA" style="myBtn-2 m-2" url="#pricing" />
-                <Button title="TENTANG KAMI" style="myBtn-3 m-2" url="#about" />
+                <Button title="SELENGKAPNYA" style="myBtn2" url="#pricing" />
+                <Button title="TENTANG KAMI" style="myBtn3" url="#about" />
               </div>
             </div>
           </div>
