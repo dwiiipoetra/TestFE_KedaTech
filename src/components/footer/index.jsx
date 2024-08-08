@@ -92,6 +92,7 @@ const Footer = () => {
 
                 <div className="send-button mt-4">
                   <Button
+                    style="myBtn"
                     title="Kirim Pesan"
                     icon="fa-paper-plane"
                     clickBtn={handleSubmit}

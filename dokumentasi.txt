@@ -1,7 +1,0 @@
-- Framework yang dipakai dalam project SPA ini adalah menggunakan Bootstrap + Font Awesome
-
-- Untuk web responsive, saya menggunakan style dari Bootstrap dan juga dicustom menggunakan CSS Media Query
-
-- Untuk pengambilan file SVG saya menggunakan bantuain module SVGR karena saya menggunakan Vite sebagai bundlenya
-
-- Untuk UI login saya menggunakan mdb-react-ui-kit

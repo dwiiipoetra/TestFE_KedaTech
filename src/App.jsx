@@ -1,5 +1,6 @@
 import React from "react";
 import { about, pricing } from "./data";
+import Button from "./components/shared/Button";
 import Menu from "./components/menu";
 import About from "./components/about";
 import Pricing from "./components/pricing";
@@ -23,22 +24,24 @@ function App() {
                   Otomatisasi dan efektifkan proses operasional perusahaan
                   menggunakan software ERP terbaik.
                 </h4>
-                <a
+                {/* <a
                   className="myBtn-2 m-2"
                   href="#"
                   role="button"
                   rel="nofollow"
                 >
                   SELENGKAPNYA
-                </a>
-                <a
+                </a> */}
+                {/* <a
                   className="myBtn-3 m-2"
                   href="#"
                   role="button"
                   rel="nofollow"
                 >
                   TENTANG KAMI
-                </a>
+                </a> */}
+                <Button title="SELENGKAPNYA" style="myBtn-2 m-2" url="#pricing" />
+                <Button title="TENTANG KAMI" style="myBtn-3 m-2" url="#about" />
               </div>
             </div>
           </div>

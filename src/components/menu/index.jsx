@@ -33,6 +33,7 @@ const Menu = () => {
             
             <div className="d-flex flex-column sim">
               <Button
+                style="myBtn"
                 title="Masuk"
                 icon="fa fa-lg fa-sign-in"
                 clickBtn={toggleShow}
