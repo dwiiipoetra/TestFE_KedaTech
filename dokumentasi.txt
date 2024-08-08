@@ -1,10 +1,7 @@
--Framework yang dipakai dalam pengerjaan task ini adalah menggunakan Bootstrap dan juga menggunakan Font Awesome.
-karena saya lebih familiar dengan style yang dimiliki Bootstrap dan juga lebih cepat untuk mengcustomize style desainnya.
-Mungkin untuk project yang lebih singkat dapat menggunakan framework CSS yang lebih ringan seperti Bulma, Semantic UI, dll.
+- Framework yang dipakai dalam project SPA ini adalah menggunakan Bootstrap + Font Awesome
 
--Kemudian untuk web responsive, saya memanfaatkan style bawaan dari Bootstrap dan juga saya customize lagi menggunakan
-CSS Media Query.
+- Untuk web responsive, saya menggunakan style dari Bootstrap dan juga dicustom menggunakan CSS Media Query
 
--Untuk pengambilan file SVG saya menggunakan bantuain module SVGR karena saya menggunakan Vite sebagai bundlenya.
+- Untuk pengambilan file SVG saya menggunakan bantuain module SVGR karena saya menggunakan Vite sebagai bundlenya
 
--Untuk menampilkan modal login saya menggunakan react-bootstrap
+- Untuk UI login saya menggunakan mdb-react-ui-kit
