@@ -1,5 +1,5 @@
 {
-  "name": "soal2_dwiwaluyoputranto",
+  "name": "companyprofile_erphouse",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "bootstrap": "^5.2.2",
     "mdb-react-ui-kit": "^4.2.0",
     "react": "^18.2.0",
-    "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "vite-plugin-svgr": "^2.2.2"
   },
