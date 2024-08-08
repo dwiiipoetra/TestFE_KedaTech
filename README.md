@@ -1,0 +1,4 @@
+- Tema dalam company profile ini adalah sebuah perusahaan yang bergerak di bidang IT yang menawarkan solusi dalam meningkatkan produktifitas proses bisnis perusahaan dengan ERP
+- User interface dalam project SPA ini menggunakan bootstrap, font awesome, mdb react ui kit
+- Untuk responsive web saya menggunakan bootstrap + custom style css media query
+- Saya menggunakan vite plugin svgr untuk mengonversi file svg menjadi komponen React
