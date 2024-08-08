@@ -1,7 +1,11 @@
 import React from "react";
+import Button from "../shared/Button";
 import ColumnMenu from "./columnMenu";
 
 const Footer = () => {
+  const handleSubmit = () => {
+    alert('tes')
+  }
   return (
     <footer id="contact">
       <div className="footer-contactform" style={{ paddingTop: "25px" }}>
@@ -23,6 +27,7 @@ const Footer = () => {
                       type="text"
                       placeholder="Nama"
                       className="form-control"
+                      required
                     />
                   </div>
                   <div className="col-md-6 mt-3">
@@ -30,6 +35,7 @@ const Footer = () => {
                       type="email"
                       placeholder="Email"
                       className="form-control"
+                      required
                     />
                   </div>
                 </div>
@@ -39,10 +45,11 @@ const Footer = () => {
                       type="text"
                       placeholder="Nama Perusahaan"
                       className="form-control"
+                      required
                     />
                   </div>
                   <div className="col-md-6 mt-3">
-                    <select name="industry" className="form-select">
+                    <select name="industry" className="form-select" required>
                       <option>Jenis Industri</option>
                       <option defaultValue="32">Retail</option>
                       <option defaultValue="33">
@@ -78,18 +85,17 @@ const Footer = () => {
                       className="form-control"
                       rows="4"
                       placeholder="Pesan"
+                      required
                     ></textarea>
                   </div>
                 </div>
 
                 <div className="send-button mt-4">
-                  <button className="myBtn">
-                    <i
-                      className="fa fa-lg fa-paper-plane"
-                      aria-hidden="true"
-                    ></i>
-                    &nbsp; Kirim Pesan
-                  </button>
+                  <Button
+                    title="Kirim Pesan"
+                    icon="fa-paper-plane"
+                    clickBtn={handleSubmit}
+                  />
                 </div>
               </div>
             </div>

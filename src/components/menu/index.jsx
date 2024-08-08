@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import Login from "./login";
+import Button from "../shared/Button";
+import Login from "../login";
 import ListMenu from "./listMenu";
 import { MDBModal, MDBModalDialog } from "mdb-react-ui-kit";
 
 const Menu = () => {
   const [basicModal, setBasicModal] = useState(false);
   const toggleShow = () => {
-    setBasicModal(!basicModal);
+    setBasicModal(basicModal => !basicModal);
   };
 
   return (
@@ -31,10 +32,11 @@ const Menu = () => {
             <ListMenu />
             
             <div className="d-flex flex-column sim">
-              <button className="myBtn" onClick={toggleShow}>
-                <i className="fa fa-lg fa-sign-in" aria-hidden="true"></i>
-                &nbsp; Masuk
-              </button>
+              <Button
+                title="Masuk"
+                icon="fa fa-lg fa-sign-in"
+                clickBtn={toggleShow}
+              />
             </div>
           </div>
         </div>

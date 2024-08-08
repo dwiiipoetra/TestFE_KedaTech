@@ -1,5 +1,5 @@
 import React from 'react'
-import { menus } from '../data'
+import { menus } from '../../data'
 
 const ListMenu = () => {
   return (

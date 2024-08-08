@@ -8,10 +8,10 @@ import Footer from "./components/footer";
 function App() {
   return (
     <>
-      {/* HEADER */}
       <header>
-        {/* MENU */}
+
         <Menu />
+        
         <div id="intro" className="p-5 text-center bg-image">
           <div className="mask">
             <div className="d-flex justify-content-center align-items-center h-100">
