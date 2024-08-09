@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Box = ({datas}) => {
+const AboutBox = ({datas}) => {
   return (
     <>
       { datas.map(data => (
@@ -14,4 +14,4 @@ const Box = ({datas}) => {
   )
 }
 
-export default Box
+export default AboutBox
